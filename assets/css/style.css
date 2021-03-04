@@ -13,6 +13,18 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 /* apply styles to header */
 
 header {
@@ -63,6 +75,13 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 /* hero style start */
 
 .hero {
@@ -106,34 +125,74 @@ div {
 
 .section-text {
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
     border-left: solid var(--secondary-color);
     padding: 10px;
     width: 70%;
+    max-width: 900px;
     flex-wrap: nowrap;
-}
-
-.big-button {
-    background-image: url("../images/run-buddy.png");
-    height: 400px;
-    width: 100%;
-}
-
-.small-button {
-    background-image: url("../images/horiseon.png");
-    height: 200px;
-    width: 40%;
-    margin: 5px;
 }
 
 .section-image {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     border-left: solid var(--secondary-color);
-    padding: 10px;
-    width: 60%;
+    margin: 0px auto;
+    width: 70%;
     flex-wrap: wrap;
-    flex-direction: row;
+    max-height: fit-content;
 }
+
+.big-button {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/run-buddy.png');
+    background-position: top;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 1.0);
+}
+
+.big-button:hover {
+    background: url('../images/run-buddy.png');
+    background-position: top;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 1.0);
+}
+
+.link-text {
+    position: relative;
+    width: 100%;
+
+}
+
+.big-button a {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: end;
+    height: 100%;
+    width: 100%;
+    bottom: 16px;
+    right: 8px;
+}
+
+.small-button {
+    width: 40%;
+    max-width: 485px; 
+    margin: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+}
+
+.small-button img {
+    width: 70%;
+    height: 100%;
+}
+
+
+
