@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #003d50;
-    --secondary-color: #008db8;
+    --primary-color: #336ED3;
+    --secondary-color: #8C9BB5;
 }
 
 * {
@@ -9,18 +9,18 @@
 }
 
 body {
-    color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 a:link {
-    color: white;
+    color: var(--secondary-color);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: var(--secondary-color);
     background-color: transparent;
     text-decoration: none;
 }
@@ -38,7 +38,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-    z-index: 9999;
 }
 
 header h1 {
@@ -72,7 +71,6 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -85,6 +83,7 @@ header nav ul li a:hover {
 /* hero style start */
 
 .hero {
+    background-image: url("../images/photo-1464802686167-b939a6910659.jfif");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -121,78 +120,156 @@ div {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    margin: 10px;
 }
 
 .section-text {
     display: flex;
     align-items: flex-end;
-    border-left: solid var(--secondary-color);
+    border-left: solid var(--primary-color);
+    justify-content: space-evenly;
     padding: 10px;
     width: 70%;
-    max-width: 900px;
     flex-wrap: nowrap;
 }
 
 .section-image {
     display: flex;
-    border-left: solid var(--secondary-color);
-    margin: 0px auto;
+    align-items: flex-start;
+    flex-direction: row;
+    border-left: solid var(--primary-color);
     width: 70%;
     flex-wrap: wrap;
-    max-height: fit-content;
 }
 
 .big-button {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/run-buddy.png');
-    background-position: top;
-    padding: 10px;
-    margin: 10px;
-    height: 400px;
-    width: 70%;
+    height: 600px;
+    width: 100%;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 1.0);
+}
+
+.big-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 .big-button:hover {
-    background: url('../images/run-buddy.png');
+    position: relative;
     background-position: top;
     padding: 10px;
     margin: 10px;
-    height: 400px;
-    width: 70%;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 1.0);
-}
-
-.link-text {
-    position: relative;
+    height: 600px;
     width: 100%;
-
+    border-radius: 15px;
 }
 
 .big-button a {
     font-family: Helvetica, Arial, sans-serif;
-    text-align: end;
+    flex-direction: row;
+    text-align: center;
     height: 100%;
     width: 100%;
-    bottom: 16px;
-    right: 8px;
+    margin: 10px;
+    padding: 260px;
+    filter: brightness(50%);
 }
 
-.small-button {
-    width: 40%;
-    max-width: 485px; 
-    margin: 0px;
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column-reverse;
-    color: white;
-}
-
-.small-button img {
-    width: 70%;
+.big-button a:hover {
+    font-family: Helvetica, Arial, sans-serif;
+    flex-direction: row;
+    text-align: center;
     height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 260px;
+    filter: brightness(50%);
 }
 
+.small-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
 
+}
 
+.small-buttons div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 50%;
+    max-height: 240px; 
+    border-radius: 15px;
+    filter: brightness(50%);
+}
+
+.small-buttons div:hover {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 50%;
+    max-height: 240px; 
+    border-radius: 15px;
+    filter: brightness(100%);
+}
+
+.small-buttons img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.small-buttons div a {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 90%;
+    bottom: 240px;
+    right: 0px;
+    line-height: 240px;
+    text-align: center;
+    filter: brightness(100%);
+}
+
+.section-text p span {
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+}
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+footer p a {
+    color: var(--secondary-color);
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
