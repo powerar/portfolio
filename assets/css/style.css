@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #336ED3;
-    --secondary-color: #8C9BB5;
+    --primary-color: #2573DA;
+    --secondary-color: #25CEDA;
+    --tertiary-color: #25DA8C;
 }
 
 * {
@@ -14,13 +15,13 @@ body {
 }
 
 a:link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     background-color: transparent;
     text-decoration: none;
 }
@@ -142,49 +143,71 @@ div {
     flex-wrap: wrap;
 }
 
+.link-box {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color:var(--tertiary-color);
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    bottom: 300px;
+    right: 0px;
+    line-height: 300px;
+    text-align: center;
+}
+
 .big-button {
-    height: 600px;
+    padding: 0px;
+    margin: 0px;
     width: 100%;
     border-radius: 15px;
 }
 
-.big-button img {
+.big-button div {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 300px;
     width: 100%;
+    border-radius: 15px;
+    filter: brightness(50%);
+}
+
+.big-button div:hover {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+    filter: brightness(100%);
+}
+
+.big-button div a {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
     height: 100%;
+    width: 100%;
+    bottom: 300px;
+    right: 0px;
+    line-height: 300px;
+    text-align: center;
+}
+
+
+.big-button div img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
     border-radius: 15px;
     object-fit: cover;
-}
-
-.big-button:hover {
-    position: relative;
-    background-position: top;
-    padding: 10px;
-    margin: 10px;
-    height: 600px;
-    width: 100%;
-    border-radius: 15px;
-}
-
-.big-button a {
-    font-family: Helvetica, Arial, sans-serif;
-    flex-direction: row;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    margin: 10px;
-    padding: 260px;
-    filter: brightness(50%);
-}
-
-.big-button a:hover {
-    font-family: Helvetica, Arial, sans-serif;
-    flex-direction: row;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    margin: 10px;
-    padding: 260px;
-    filter: brightness(50%);
 }
 
 .small-buttons {
