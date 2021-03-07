@@ -99,6 +99,7 @@ header nav ul li a:hover {
     padding: 10px 15px;
 }
 
+/* style text sections */
 .section-title {
     display: flex;
     width: 30%;
@@ -130,6 +131,7 @@ div {
     flex-wrap: nowrap;
 }
 
+/* style image section */
 .section-image {
     display: flex;
     align-items: flex-start;
@@ -139,6 +141,7 @@ div {
     flex-wrap: wrap;
 }
 
+/* big button style start */
 .big-button {
     padding: 0px;
     margin: 0px;
@@ -198,6 +201,7 @@ div {
     object-fit: cover;
 }
 
+/* small button style start */
 .small-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -260,6 +264,7 @@ div {
     padding: 100px;
 }
 
+/* footer style start */
 footer {
     background: var(--primary-color);
     width: 100%;
