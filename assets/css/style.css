@@ -1,7 +1,6 @@
 :root {
-    --primary-color: #2573DA;
-    --secondary-color: #25CEDA;
-    --tertiary-color: #25DA8C;
+    --primary-color: #0c576e;
+    --secondary-color: #117B9C;
 }
 
 * {
@@ -15,13 +14,13 @@ body {
 }
 
 a:link {
-    color: var(--primary-color);
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: var(--primary-color);
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
@@ -35,25 +34,18 @@ header {
     justify-content: space-between; 
     flex-wrap: wrap;
     top: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 60px;
-    margin: 0;
-    color: var(--primary-color);
-    text-shadow: 10px 0 0 rgbda(0, 0, 0, 0.5);
-    background-color: var(--secondary-color);
-
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 header nav {
@@ -69,14 +61,16 @@ header nav ul {
 }
 
 header nav ul li a {
+    color: var(--primary-color);
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
     background: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -98,7 +92,7 @@ header nav ul li a:hover {
 .hero h2 {
     font-weight: bold;
     font-size: 50px;
-    color: var(--secondary-color);
+    color: white;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -112,6 +106,7 @@ header nav ul li a:hover {
 }
 
 .section-title h3 {
+    color: white;
     font-weight: bold;
     font-size: 40px;
     margin: 10px;
@@ -125,6 +120,7 @@ div {
 }
 
 .section-text {
+    color: white;
     display: flex;
     align-items: flex-end;
     border-left: solid var(--primary-color);
@@ -141,20 +137,6 @@ div {
     border-left: solid var(--primary-color);
     width: 70%;
     flex-wrap: wrap;
-}
-
-.link-box {
-    text-decoration: none;
-    background-color: var(--primary-color);
-    color:var(--tertiary-color);
-    position: relative;
-    font-family: Helvetica, Arial, sans-serif;
-    height: 100%;
-    width: 100%;
-    bottom: 300px;
-    right: 0px;
-    line-height: 300px;
-    text-align: center;
 }
 
 .big-button {
@@ -191,8 +173,6 @@ div {
 }
 
 .big-button div a {
-    position: relative;
-    font-family: Helvetica, Arial, sans-serif;
     height: 100%;
     width: 100%;
     bottom: 300px;
@@ -201,6 +181,14 @@ div {
     text-align: center;
 }
 
+.big-button h3 {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 10px; 
+}
 
 .big-button div img {
     height: 100%;
@@ -251,21 +239,20 @@ div {
     width: 100%;
     height: 100%;
     padding: 10px;
+    max-height: 240px;
     border-radius: 15px;
     object-fit: cover;
 }
 
-.small-buttons div a {
-    position: relative;
-    font-family: Helvetica, Arial, sans-serif;
-    height: 100%;
-    width: 90%;
-    bottom: 240px;
-    right: 0px;
-    line-height: 240px;
-    text-align: center;
-    filter: brightness(100%);
-}
+.small-buttons h3 {
+    color:white;
+    background-color: var(--primary-color);
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    text-align:justify; 
+  }
 
 .section-text p span {
     height: 100%;
@@ -276,7 +263,6 @@ div {
 footer {
     background: var(--primary-color);
     width: 100%;
-    padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -289,10 +275,13 @@ footer h2 {
 }
 
 footer p a {
-    color: var(--secondary-color);
+    color: white;
+}
+
+footer p {
+    color:white;
 }
 
 footer div {
-    line-height: 1.5;
     text-align: right;
 }
