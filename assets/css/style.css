@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #0c576e;
-    --secondary-color: #117B9C;
+    --primary-color: #212529;
+    --secondary-color: white;
+    --tertiary-color: grey;
 }
 
 * {
@@ -9,7 +10,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -48,9 +49,6 @@ header a {
     color: var(--primary-color);
 }
 
-header nav {
-    margin: 7px 0;
-}
 
 header nav ul {
     display: flex;
@@ -124,7 +122,7 @@ div {
     color: white;
     display: flex;
     align-items: flex-end;
-    border-left: solid var(--primary-color);
+    border-left: solid var(--secondary-color);
     justify-content: space-evenly;
     padding: 10px;
     width: 70%;
@@ -136,7 +134,7 @@ div {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border-left: solid var(--primary-color);
+    border-left: solid var(--secondary-color);
     width: 70%;
     flex-wrap: wrap;
 }
@@ -205,7 +203,6 @@ div {
 .small-buttons {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
     width: 100%;
     justify-content: space-between;
 }
