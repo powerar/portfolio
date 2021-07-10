@@ -1,23 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function Nav() {
+function Nav (props) {
+  const { setCurrentCategory, currentCategory } = props;
+
+  useEffect(() => {
+      document.title = currentCategory.name;
+  }, [currentCategory]);
+
   return (
-    <header class="d-flex flex-wrap bg-dark text-light">
+    <header className="d-flex flex-wrap bg-dark text-light">
       <h1>ANDREW POWER</h1>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="container-fluid">
           <ul>
             <li>
-              <a href="#about-me">About Me</a>
+              <a href="#about" onClick={() => setCurrentCategory("About")}>About Me</a>
             </li>
             <li>
-              <a href="#work">Work</a>
+              <a href="#work" onClick={() => setCurrentCategory("Work")}>Work</a>
             </li>
             <li>
-              <a href="#contact-me">Contact Me</a>
+              <a href="#contact" onClick={() => setCurrentCategory("Contact")}>Contact Me</a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#resume" onClick={() => setCurrentCategory(currentCategory)}>Resume</a>
             </li>
           </ul>
         </div>
