@@ -7,34 +7,29 @@ import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
-    {
-      name: 'About',
-    },
-    {
-      name: 'Contact',
-    },
-    {
-      name: 'Work',
-    },
-  ]);
+    'About',
+    'Contact',
+    'Work'
+  ], );
+
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  
+
     const renderAbout = () => {
       if (currentCategory === "About") {
-        return <About></About>
+        return <About currentCategory={currentCategory}></About>
       }
     }
     
     const renderWork = () => {
       if (currentCategory === "Work") {
-        return <Work></Work>
+        return <Work currentCategory={currentCategory}></Work>
       }
     }
 
     const renderContact = () => {
       if (currentCategory === "Contact") {
-        return <ContactForm></ContactForm>
+        return <ContactForm currentCategory={currentCategory}></ContactForm>
       }
     }
     
@@ -46,7 +41,7 @@ function App() {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
       ></Nav>
-      <main>
+      <main key="About">
         {renderWork()}
         {renderContact()}
         {renderAbout()}

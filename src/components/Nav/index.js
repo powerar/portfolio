@@ -4,7 +4,7 @@ function Nav (props) {
   const { setCurrentCategory, currentCategory } = props;
 
   useEffect(() => {
-      document.title = currentCategory.name;
+      document.title = currentCategory;
   }, [currentCategory]);
 
   return (
@@ -23,8 +23,9 @@ function Nav (props) {
               <a href="#contact" onClick={() => setCurrentCategory("Contact")}>Contact Me</a>
             </li>
             <li>
-              <a href="#resume" onClick={() => setCurrentCategory(currentCategory)}>Resume</a>
+              <a href="#resume" onClick={() => setCurrentCategory("Resume")}>Resume</a>
             </li>
+            
           </ul>
         </div>
       </nav>
