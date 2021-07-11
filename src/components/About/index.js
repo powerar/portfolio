@@ -4,7 +4,7 @@ function About() {
   return (
     <section>
       <div class="card text-center bg-dark text-light">
-        <h3 className="card-header bg-primary">About Me</h3>
+        <h3 className="card-header bg-dark">About Me</h3>
         <body className="bg-dark text-light">
           <p className="card-text">
             My name is Andrew Power and I am eager to begin a career in the

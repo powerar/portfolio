@@ -1,3 +1,12 @@
+:root {
+    --primary: 
+}
+
+main {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
 * {
     background-color: #343a40;
 }
@@ -8,6 +17,29 @@ body {
     margin: 5px;
 }
 
+.card {
+    max-width: 50%;
+    height: 50%;
+}
+
+.flex-row {
+    align-items: center;
+}
+
+div {
+    display: flexbox;
+}
+
 .btn {
     margin: 1px;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	padding: 5px;
+}
+
+input {
+    width: 50%;
 }

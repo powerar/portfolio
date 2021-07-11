@@ -8,18 +8,17 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="d-flex flex-wrap justify-content-center bg-dark text-light">
+    <header className="align-items-center bg-dark text-light">
       <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous"
       ></link>
-      <link rel="stylesheet" href="../../index.css"></link>
+      <link rel="stylesheet" href="../../index.css" type="text/css"></link>
       <h1>ANDREW POWER</h1>
-      <nav className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <div className="container">
-          <ul className="nav nav-pills">
+      <nav className="align-items-center text-dark text-decoration-none">
+          <ul className="nav justify-content-end nav-pills">
             <li>
               <a
                 href="#about"
@@ -57,7 +56,6 @@ function Nav(props) {
               </a>
             </li>
           </ul>
-        </div>
       </nav>
     </header>
   );
