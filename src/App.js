@@ -5,35 +5,36 @@ import Nav from './components/Nav';
 import Work from './components/Work';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
-  const [categories] = useState([
-    'About',
-    'Contact',
-    'Work'
-  ], );
+  const [categories] = useState(['About', 'Contact', 'Work']);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
+  const renderAbout = () => {
+    if (currentCategory === 'About') {
+      return <About currentCategory={currentCategory}></About>;
+    }
+  };
 
-    const renderAbout = () => {
-      if (currentCategory === "About") {
-        return <About currentCategory={currentCategory}></About>
-      }
+  const renderWork = () => {
+    if (currentCategory === 'Work') {
+      return <Work currentCategory={currentCategory}></Work>;
     }
-    
-    const renderWork = () => {
-      if (currentCategory === "Work") {
-        return <Work currentCategory={currentCategory}></Work>
-      }
-    }
+  };
 
-    const renderContact = () => {
-      if (currentCategory === "Contact") {
-        return <ContactForm currentCategory={currentCategory}></ContactForm>
-      }
+  const renderContact = () => {
+    if (currentCategory === 'Contact') {
+      return <ContactForm currentCategory={currentCategory}></ContactForm>;
     }
-    
+  };
+
+  const renderResume = () => {
+    if (currentCategory === 'Resume') {
+      return <Resume currentCategory={currentCategory}></Resume>;
+    }
+  };
 
   return (
     <div>
@@ -46,8 +47,9 @@ function App() {
         {renderWork()}
         {renderContact()}
         {renderAbout()}
-        <Footer></Footer>
+        {renderResume()}
       </main>
+        <Footer></Footer>
     </div>
   );
 }

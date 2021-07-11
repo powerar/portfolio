@@ -1,13 +1,17 @@
 :root {
-    --primary: 
+    background-color: #343a40; 
+}
+
+header {
+    background-image: url('./images/pexels-francesco-ungaro-998641.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 main {
     margin: 0 auto;
     max-width: 90%;
-}
-
-* {
     background-color: #343a40;
 }
 
@@ -15,11 +19,13 @@ html,
 body {
     min-height: fit-content;
     margin: 5px;
+    background-color: #343a40;
 }
 
 .card {
     max-width: 50%;
     height: 50%;
+    display: flex;
 }
 
 .flex-row {
@@ -28,6 +34,7 @@ body {
 
 div {
     display: flexbox;
+    background-color: #343a40;
 }
 
 .btn {
@@ -44,6 +51,7 @@ input {
     width: 50%;
 }
 
-.footer {
-    flex-shrink: 0;
+.align-right {
+    position: absolute;
+    right: 0;
 }
