@@ -17,7 +17,7 @@ function Nav(props) {
       ></link>
       <link rel="stylesheet" href="../../index.css" type="text/css"></link>
       <h1>ANDREW POWER</h1>
-      <nav className="align-items-center text-dark text-decoration-none">
+      <nav className="align-itemstext-dark text-decoration-none">
           <ul className="nav justify-content-end nav-pills">
             <li>
               <a
