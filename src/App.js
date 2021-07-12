@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 
 function App() {
-  const [categories] = useState(['About', 'Contact', 'Work']);
+  const [categories] = useState(['About', 'Contact', 'Work', 'Resume']);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
