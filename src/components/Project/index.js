@@ -28,9 +28,9 @@ const Project = () => {
       appLink: 'https://sheltered-depths-01259.herokuapp.com/',
     },
     {
-      title: 'Pizza Hunt',
-      github: 'https://github.com/powerar/pizza-hunt',
-      appLink: 'https://ancient-plateau-15647.herokuapp.com/',
+      title: 'Art Gallery Online',
+      github: 'https://github.com/Stevtm/art-gallery-online',
+      appLink: 'https://shrouded-sands-03163.herokuapp.com/',
     },
   ];
 
