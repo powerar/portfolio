@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bbbdcd45.chunk.css",
+    "main.js": "/portfolio/static/js/main.1f7e278f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1f7e278f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.3ba3bba5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3ba3bba5.js.map",
+    "static/js/2.fa25bb8f.chunk.js": "/portfolio/static/js/2.fa25bb8f.chunk.js",
+    "static/js/2.fa25bb8f.chunk.js.map": "/portfolio/static/js/2.fa25bb8f.chunk.js.map",
+    "static/js/3.5d02c02b.chunk.js": "/portfolio/static/js/3.5d02c02b.chunk.js",
+    "static/js/3.5d02c02b.chunk.js.map": "/portfolio/static/js/3.5d02c02b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.bbbdcd45.chunk.css.map": "/portfolio/static/css/main.bbbdcd45.chunk.css.map",
+    "static/js/2.fa25bb8f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fa25bb8f.chunk.js.LICENSE.txt",
+    "static/media/Art Gallery Online.png": "/portfolio/static/media/Art Gallery Online.876bfb65.png",
+    "static/media/Deep Thoughts.png": "/portfolio/static/media/Deep Thoughts.1bd4af42.png",
+    "static/media/Gamer Match Maker.png": "/portfolio/static/media/Gamer Match Maker.a3934fe9.png",
+    "static/media/Horiseon.png": "/portfolio/static/media/Horiseon.f0f600dc.png",
+    "static/media/Obsidiflex.png": "/portfolio/static/media/Obsidiflex.643f6942.png",
+    "static/media/Run Buddy.png": "/portfolio/static/media/Run Buddy.87215ecf.png",
+    "static/media/index.css": "/portfolio/static/media/pexels-francesco-ungaro-998641.81c108db.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ba3bba5.js",
+    "static/js/2.fa25bb8f.chunk.js",
+    "static/css/main.bbbdcd45.chunk.css",
+    "static/js/main.1f7e278f.chunk.js"
+  ]
+}
