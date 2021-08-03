@@ -8,18 +8,12 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="d-flex flex-wrap py-3 align-items-center mb-4 border-bottom bg-dark text-light">
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous"
-      ></link>
-      <link rel="stylesheet" href="../../index.css"></link>
-      <h1>ANDREW POWER</h1>
-      <div className="align-right">
-        <nav className="flex mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <ul className="nav nav-pills">
+      <nav className="#607d8b blue-grey">
+        <div className="nav-wrappe container">
+          <a href="#" class="brand-logo">
+            ANDREW POWER
+          </a>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
               <a
                 href="#about"
@@ -57,9 +51,8 @@ function Nav(props) {
               </a>
             </li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </nav>
   );
 }
 
