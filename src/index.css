@@ -2,7 +2,11 @@ body {
     margin: 0;
 }
 
-nav .nav-wrapper {
+.nav .nav-wrapper {
     position: relative;
     height: 100%;
+}
+
+#card-container {
+    max-width: 25%;
 }

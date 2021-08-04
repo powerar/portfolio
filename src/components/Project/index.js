@@ -20,12 +20,13 @@ const Project = () => {
       title: 'Art Gallery Online',
       github: 'https://github.com/Stevtm/art-gallery-online',
       appLink: 'https://shrouded-sands-03163.herokuapp.com/',
-      description: 'This application is an online art gallery that allows put their original art up for sale and browse art pieces that have been posted by other users in the community. The application is built with the MERN stack with a GraphQL API. A Stripe placeholder is configured to direct users to a payment page for purchasing art.'
+      description:
+        'This application is an online art gallery that allows put their original art up for sale and browse art pieces that have been posted by other users in the community. The application is built with the MERN stack with a GraphQL API. A Stripe placeholder is configured to direct users to a payment page for purchasing art.',
     },
   ];
 
   return (
-    <div className="container">
+    <div className="container" id="card-container">
       {projects.map((project, i) => (
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
@@ -37,29 +38,27 @@ const Project = () => {
             />
           </div>
           <div className="card-content">
-            <span class="card-title activator grey-text text-darken-4">
-            {projects[i].title}
-              <i class="material-icons right">more_vert</i>
-            </span>
-            <p>
-              <a href={projects[i].appLink}>
-                App
-              </a>
-            </p>
-            <p>
-              <a href={projects[i].github}>
-                Github
-              </a>
-            </p>
+            
+              <span class="card-title activator grey-text text-darken-4">
+                {projects[i].title}
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href={projects[i].appLink}>App</a>
+              </p>
+              <p>
+                <a href={projects[i].github}>Github</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                {projects[i].title}
+                <i class="material-icons right">close</i>
+              </span>
+              <p>{projects[i].description}</p>
+            </div>
           </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">
-              {projects[i].title}
-              <i class="material-icons right">close</i>
-            </span>
-            <p>{projects[i].description}</p>
-          </div>
-        </div>
+        
       ))}
     </div>
   );
