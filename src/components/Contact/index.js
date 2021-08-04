@@ -2,51 +2,76 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
-
-
-  const [formState, setFormState] = useState({ name: '', email: '', message: ''});
+  const [formState, setFormState] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
 
   function handleChange(e) {
     if (e.target.name === 'email') {
-        const isValid = validateEmail(e.target.value);
-        console.log(isValid);
-        // isValid conditional statement
-        if (!isValid) {
-            setErrorMessage('Your email is invalid.');
-        } else {
-            setErrorMessage('');
-        }
-      }  
-      if (!errorMessage) { 
-          setFormState({...formState, [e.target.name]: e.target.value })
+      const isValid = validateEmail(e.target.value);
+      console.log(isValid);
+      // isValid conditional statement
+      if (!isValid) {
+        setErrorMessage('Your email is invalid.');
+      } else {
+        setErrorMessage('');
       }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
   }
 
   function handleSubmit(e) {
-      e.preventDefault();
+    e.preventDefault();
   }
 
   return (
-    <section>
-      <h1 className="text-light">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label className="text-light" htmlFor="name">Name:</label>
-          <input className="form-control form-control-sm" type="text" defaultValue={name} onBlur={handleChange} name="name"/>
+    <div className="container">
+      <h1 className="">Contact me</h1>
+      <form className="col s12" id="contact-form" onSubmit={handleSubmit}>
+        <div className="input-field col s6">
+          <i className="material-icons prefix">account_circle</i>
+          <input
+            id="icon_prefix"
+            type="text"
+            defaultValue={name}
+            onBlur={handleChange}
+            className="validate"
+          />
+          <label htmlFor="name">Name:</label>
         </div>
-        <div>
-          <label className="text-light" htmlFor="email">Email address:</label>
-          <input type="email" className="form-control form-control-sm" defaultValue={email} onBlur={handleChange} name="email" />
+        <div className="input-field col s6">
+          <i class="material-icons prefix">mail</i>
+          <input
+            id="icon_mail"
+            type="email"
+            className="validate"
+            defaultValue={email}
+            onBlur={handleChange}
+          />
+          <label id="icon_mail">Email address:</label>
         </div>
-        <div>
-          <label className="text-light" htmlFor="message">Message:</label>
-          <textarea name="message" className="form-control form-control-lg" defaultValue={message} onBlur={handleChange} rows="5" />
+        <div className="input-field col s6">
+          <i className="material-icons prefix">mode_edit</i>
+          <textarea
+            id="message"
+            className="materialize-textarea"
+            defaultValue={message}
+            onBlur={handleChange}
+            rows="5"
+          />
+          <label htmlFor="message">Message:</label>
         </div>
-        <button type="submit">Submit</button>
       </form>
-    </section>
+      <button className="btn btn-primary" type="submit">
+        Submit
+      </button>
+    </div>
   );
 }
 
