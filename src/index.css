@@ -7,6 +7,8 @@ body {
     height: 100%;
 }
 
-#card-container {
-    max-width: 50%;
+#parallax-img {
+    transform: translate3d(-50%, 315.824px, 0px); 
+    opacity: 1;
+    
 }

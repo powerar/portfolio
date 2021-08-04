@@ -3,7 +3,8 @@ import Project from '../Project';
 
 function Work () {
     return (
-        <div>
+        <div className="col s12 center">
+          <h3>Work</h3>
           <Project></Project>      
         </div>
     );
