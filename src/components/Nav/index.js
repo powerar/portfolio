@@ -1,11 +1,6 @@
 import React, { useEffect } from 'react';
 
-function Nav(props) {
-  const { setCurrentCategory, currentCategory } = props;
-
-  useEffect(() => {
-    document.title = currentCategory;
-  }, [currentCategory]);
+function Nav() {
 
   return (
       <nav className="#607d8b blue-grey">
@@ -18,7 +13,7 @@ function Nav(props) {
               <a
                 href="#about"
                 className="btn btn-primary"
-                onClick={() => setCurrentCategory('About')}
+                
               >
                 About Me
               </a>
@@ -27,7 +22,7 @@ function Nav(props) {
               <a
                 href="#work"
                 className="btn btn-primary"
-                onClick={() => setCurrentCategory('Work')}
+                
               >
                 Work
               </a>
@@ -36,7 +31,7 @@ function Nav(props) {
               <a
                 href="#contact"
                 className="btn btn-primary"
-                onClick={() => setCurrentCategory('Contact')}
+                
               >
                 Contact Me
               </a>
@@ -45,7 +40,7 @@ function Nav(props) {
               <a
                 href="#resume"
                 className="btn btn-primary"
-                onClick={() => setCurrentCategory('Resume')}
+                
               >
                 Resume
               </a>

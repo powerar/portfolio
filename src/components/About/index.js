@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="container">
+    <div id="about" className="container">
       <div className="section">
         <div className="row">
           <div className="col s12 center">
