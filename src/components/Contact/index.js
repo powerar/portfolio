@@ -31,14 +31,19 @@ function ContactForm() {
   }
 
   return (
-    <section>
-      <div className="col s12 center">
-      <h3>Contact me</h3>
-      </div>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label className="text-light" htmlFor="name">Name:</label>
-          <input className="form-control form-control-sm" type="text" defaultValue={name} onBlur={handleChange} name="name"/>
+    <div className="container">
+      <h1 className="">Contact me</h1>
+      <form className="col s12" id="contact-form" onSubmit={handleSubmit}>
+        <div className="input-field col s6">
+          <i className="material-icons prefix">account_circle</i>
+          <input
+            id="icon_prefix"
+            type="text"
+            defaultValue={name}
+            onBlur={handleChange}
+            className="validate"
+          />
+          <label htmlFor="name">Name:</label>
         </div>
         <div className="input-field col s6">
           <i class="material-icons prefix">mail</i>
@@ -66,7 +71,7 @@ function ContactForm() {
       <button className="btn btn-primary" type="submit">
         Submit
       </button>
-    </section>
+    </div>
   );
 }
 
