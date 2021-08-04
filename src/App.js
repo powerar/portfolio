@@ -24,7 +24,7 @@ function App() {
 
         <div class="parallax">
           <img
-          id="parallax-img"
+            id="parallax-img"
             src={
               require(`./images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg`)
                 .default

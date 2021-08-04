@@ -10,5 +10,11 @@ body {
 #parallax-img {
     transform: translate3d(-50%, 315.824px, 0px); 
     opacity: 1;
-    
+    background-size: cover;
+    width: 100%;
+}
+
+#about-text {
+    background-color: rgb(96, 125, 139, 0.8);
+    border-radius: 15px;
 }

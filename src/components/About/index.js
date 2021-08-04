@@ -5,10 +5,10 @@ function About() {
     <div id="about" className="container">
       <div className="section">
         <div className="row">
-          <div className="col s12 center">
+          <div className="col s12 center" id="about-text">
             <h3 className="white-text">About Me</h3>
-            <body className="white-text">
-              <p className="left-align">
+            <body>
+              <p className="left-align white-text">
                 My name is Andrew Power and I am eager to begin a career in the
                 exciting and ever-changing field of web development. My years of
                 experience in the application support sector gives me a unique
