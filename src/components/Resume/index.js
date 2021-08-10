@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section id="resume" className="section scrollspy">
       <div className="container">
-        <div className="col s12 center">
+        <div className="col s12 center text-white">
           <ul>
             <li class="collection-header">
               <h2>Experience</h2>

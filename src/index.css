@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background: #424242;
+    color: white;
 }
 
 .nav .nav-wrapper {
@@ -17,4 +19,8 @@ body {
 #about-text {
     background-color: rgb(96, 125, 139, 0.8);
     border-radius: 15px;
+}
+
+.btn {
+    background-color: #616161;
 }
