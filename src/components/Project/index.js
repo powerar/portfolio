@@ -26,10 +26,10 @@ const Project = () => {
   ];
 
   return (
-    <div className="container" id="card-container">
+    <div className="row" id="card-container">
       {projects.map((project, i) => (
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
+        <div className="card">
+          <div className="card-image waves-effect waves-block waves-light">
             <img
               src={require(`../../images/${projects[i].title}.png`).default}
               className="activator"
@@ -38,10 +38,9 @@ const Project = () => {
             />
           </div>
           <div className="card-content">
-            
-              <span class="card-title activator grey-text text-darken-4">
+              <span className="card-title activator">
                 {projects[i].title}
-                <i class="material-icons right">more_vert</i>
+                <i className="material-icons right">more_vert</i>
               </span>
               <p>
                 <a href={projects[i].appLink}>App</a>
@@ -50,15 +49,14 @@ const Project = () => {
                 <a href={projects[i].github}>Github</a>
               </p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">
+            <div className="card-reveal">
+              <span className="card-title">
                 {projects[i].title}
-                <i class="material-icons right">close</i>
+                <i className="material-icons">close</i>
               </span>
               <p>{projects[i].description}</p>
             </div>
           </div>
-        
       ))}
     </div>
   );

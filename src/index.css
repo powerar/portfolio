@@ -1,8 +1,10 @@
-body {
+body{
     margin: 0;
     background: #424242;
     color: white;
 }
+
+
 
 .nav .nav-wrapper {
     position: relative;
@@ -24,3 +26,17 @@ body {
 .btn {
     background-color: #616161;
 }
+
+.card {
+    background-color: #212121;
+}
+
+.card-reveal {
+    background: #616161 !important;
+    color: white !important;
+}
+
+i {
+    padding: 6px;
+}
+
