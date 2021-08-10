@@ -2,7 +2,6 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import Work from './components/Work';
-import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 
@@ -34,9 +33,8 @@ function App() {
         </div>
       </div>
       <div className="container">
-        <Work></Work>
-        <ContactForm></ContactForm>
         <Resume></Resume>
+        <Work></Work>
       </div>
       <Footer></Footer>
     </div>
