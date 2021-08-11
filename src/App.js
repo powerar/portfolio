@@ -25,7 +25,7 @@ function App() {
           <img
             id="parallax-img"
             src={
-              require(`./images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg`)
+              require(`./images/shapelined-_JBKdviweXI-unsplash.jpg`)
                 .default
             }
             alt="Unsplashed background img"
