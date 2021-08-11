@@ -5,10 +5,9 @@ function About() {
     <div id="about" className="container">
       <div className="section">
         <div className="row">
-          <div className="col s12 center #616161 grey darken-2" id="about-text">
+          <div className="col s12 center" id="about-text">
             <h3 className="white-text">About Me</h3>
-            <body>
-              <p className="left-align white-text">
+              <p className="center-align">
                 My name is Andrew Power and I am eager to begin a career in the
                 exciting and ever-changing field of web development. My years of
                 experience in the application support sector gives me a unique
@@ -20,7 +19,7 @@ function About() {
                 projects in the "Work" section of this page. Additionally my
                 development proficiencies are listed on the "Resume" section.
               </p>
-            </body>
+            
           </div>
         </div>
       </div>

@@ -17,10 +17,14 @@ body {
 }
 
 #about-text {
-    background-color: rgb(96, 125, 139, 0.8);
+    background-color: rgb(97, 97, 97, 0.8);
     border-radius: 15px;
 }
 
 .btn {
     background-color: #616161;
+}
+
+i {
+    padding: 8px;
 }
