@@ -1,41 +1,52 @@
-body{
-    margin: 0;
-    background: #424242;
-    color: white;
-}
-
-
-
-.nav .nav-wrapper {
-    position: relative;
-    height: 100%;
+body {
+  margin: 0;
+  background: #424242;
+  color: white;
 }
 
 #parallax-img {
-    transform: translate3d(-50%, 315.824px, 0px); 
-    opacity: 1;
-    background-size: cover;
-    width: 100%;
+  transform: translate3d(-50%, 315.824px, 0px);
+  opacity: 1;
+  width: 100%;
 }
 
 #about-text {
-    background-color: rgb(97, 97, 97, 0.8);
-    border-radius: 15px;
+  background-color: rgb(97, 97, 97, 0.8);
+  border-radius: 15px;
 }
 
 .btn {
-    background-color: #616161;
-    margin: 1px;
+  background-color: #9932CC;
+  margin: 1px;
+}
+
+
+
+#card-text {
+  color: black;
+}
+
+
+
+i {
+  padding: 8px;
+}
+
+#work {
+    justify-content: space-evenly;
+}
+
+
+.card-image {
+    object-fit: cover;
 }
 
 .card-content {
-    text-align: left !important;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#card-text {
-    color: black;
-}
-
-i {
-    padding: 8px;
+.card-container {
+    text-align: left;
+    flex-direction:row;
 }

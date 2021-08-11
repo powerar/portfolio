@@ -25,8 +25,7 @@ function App() {
           <img
             id="parallax-img"
             src={
-              require(`./images/shapelined-_JBKdviweXI-unsplash.jpg`)
-                .default
+              require(`./images/isaac-quesada-1AyqZcC7zSg-unsplash.jpg`).default
             }
             alt="Unsplashed background img"
           ></img>
@@ -34,10 +33,15 @@ function App() {
       </div>
       <div className="container">
         <Resume></Resume>
+      </div>
+      <div className="container">
         <Work></Work>
       </div>
+      <div>
       <Footer></Footer>
+      </div>
     </div>
+    
   );
 }
 
