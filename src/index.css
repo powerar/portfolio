@@ -25,6 +25,17 @@ body{
 
 .btn {
     background-color: #616161;
+    margin: 1px;
+}
+
+
+
+.card-content {
+    text-align: left !important;
+}
+
+#card-text {
+    color: black;
 }
 
 i {
