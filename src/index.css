@@ -36,6 +36,7 @@ i {
 .card {
   max-width: 50%;
   text-align: left;
+  max-height:30%;
 }
 
 p {
@@ -44,7 +45,6 @@ p {
 
 @media screen and (max-width: 850px) {
   .card {
-    max-height: 10%;
     max-width: 100%;
   }
 

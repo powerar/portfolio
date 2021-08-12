@@ -93,6 +93,8 @@ const Project = () => {
               {projects[i].title}
               <i className="material-icons right">more_vert</i>
             </span>
+            </div>
+            <div className="card-action">
             <a href={projects[i].appLink} className="btn btn-primary">
               App
             </a>
@@ -100,7 +102,8 @@ const Project = () => {
             <a href={projects[i].github} className="btn btn-primary">
               Github
             </a>
-          </div>
+            </div>
+          
           <div className="card-reveal">
             <span className="card-title black-text text-darken-4">
               {projects[i].title}
