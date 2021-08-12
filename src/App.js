@@ -34,9 +34,9 @@ function App() {
       <div className="container">
         <Work></Work>
       </div>
-
-      <Resume></Resume>
-
+      <div className="container">
+        <Resume></Resume>
+      </div>
       <Footer></Footer>
     </div>
   );

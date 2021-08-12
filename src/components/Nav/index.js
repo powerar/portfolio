@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="#212121 grey darken-4">
       <div className="nav-wrapper container">
-        <a href="#" class="brand-logo">
+        <a href="#" class="brand-logo left">
           ANDREW POWER
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">

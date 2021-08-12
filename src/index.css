@@ -38,9 +38,28 @@ i {
   text-align: left;
 }
 
+p {
+  margin: 3px;
+}
+
 @media screen and (max-width: 850px) {
   .card {
     max-height: 10%;
     max-width: 100%;
   }
+
+  nav {
+    position:fixed;
+    height: 100px;
+    left: 0;
+  }
+
+  #parallax-img {
+    transform: translate3d(-50%, 100px, 0px);
+  }
+
+  #about-text {
+    position: left;
+  }
+
 }
