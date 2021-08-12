@@ -62,4 +62,11 @@ p {
     position: left;
   }
 
+  .card-action {
+    max-height: 50%;
+  }
+
+  .carousel.carousel-slider .carousel-item {
+    min-height: 325px;
+  }
 }
