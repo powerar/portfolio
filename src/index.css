@@ -32,3 +32,12 @@ i {
   overflow: unset;
   margin: 10px;
 }
+
+.card {
+  max-width: 40%;
+  text-align: left;
+}
+
+.card-content {
+  text-align: left;
+}

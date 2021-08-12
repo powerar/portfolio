@@ -79,7 +79,7 @@ const Project = () => {
   return (
     <div className="carousel carousel-slider center">
       {projects.map((project, i) => (
-        <div className="carousel-item card small">
+        <div className="carousel-item card">
           <div className="card-image waves-effect waves-block waves-light">
             <img
               src={require(`../../images/${projects[i].title}.png`).default}
@@ -89,7 +89,7 @@ const Project = () => {
             />
           </div>
           <div className="card-content">
-            <span className="card-title center-align activator black-text">
+            <span className="card-title activator black-text">
               {projects[i].title}
               <i className="material-icons right">more_vert</i>
             </span>
