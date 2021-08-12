@@ -38,9 +38,9 @@ i {
   text-align: left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .card {
-    max-height: 50%;
+    max-height: 10%;
     max-width: 100%;
   }
 }
