@@ -32,16 +32,13 @@ function App() {
         </div>
       </div>
       <div className="container">
-        <Resume></Resume>
-      </div>
-      <div className="container">
         <Work></Work>
       </div>
-      <div>
-      <Footer></Footer>
+      <div className="container">
+        <Resume></Resume>
       </div>
+      <Footer></Footer>
     </div>
-    
   );
 }
 

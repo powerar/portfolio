@@ -20,33 +20,15 @@ body {
   margin: 1px;
 }
 
-
-
 #card-text {
   color: black;
 }
-
-
 
 i {
   padding: 8px;
 }
 
-#work {
-    justify-content: space-evenly;
-}
-
-
-.card-image {
-    object-fit: cover;
-}
-
-.card-content {
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.card-container {
-    text-align: left;
-    flex-direction:row;
+.carousel {
+  overflow: unset;
+  margin: 10px;
 }

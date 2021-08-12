@@ -30,9 +30,7 @@ function Footer() {
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container">
-          © 2021 Copyright Andrew Power
-        </div>
+        <div class="container">© 2021 Copyright Andrew Power</div>
       </div>
     </footer>
   );

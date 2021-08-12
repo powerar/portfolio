@@ -77,9 +77,9 @@ const Project = () => {
   ];
 
   return (
-      <div className="row">
+    <div className="carousel carousel-slider center">
       {projects.map((project, i) => (
-        <div className="card">
+        <div className="carousel-item card small">
           <div className="card-image waves-effect waves-block waves-light">
             <img
               src={require(`../../images/${projects[i].title}.png`).default}
@@ -107,18 +107,17 @@ const Project = () => {
               <i className="material-icons right">close</i>
             </span>
             <p id="card-text">{projects[i].description}</p>
-            <p id="card-text">
-              Built with:
-              <ul>
-                {projects[i].build.map((build) => (
-                  <li>{build}</li>
-                ))}
-              </ul>
-            </p>
+            
+            <ul id="card-text">
+            <strong>Built with:</strong>
+              {projects[i].build.map((build) => (
+                <li>{build}</li>
+              ))}
+            </ul>
           </div>
         </div>
       ))}
-      </div>
+    </div>
   );
 };
 
