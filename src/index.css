@@ -34,9 +34,5 @@ i {
 }
 
 .card {
-  text-align: left;
-}
-
-.card-content {
-  text-align: left;
+  max-width: 60%;
 }
