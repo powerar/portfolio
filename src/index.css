@@ -10,9 +10,18 @@ body {
   width: 100%;
 }
 
+.parallax-container {
+  max-height: 300px;
+}
+
 #about-text {
   background-color: rgb(97, 97, 97, 0.8);
   border-radius: 15px;
+  align-items:flex-end;
+}
+
+#about {
+  max-height: 300px;
 }
 
 .btn {
@@ -31,4 +40,8 @@ i {
 .carousel {
   overflow: unset;
   margin: 10px;
+}
+
+#nav-mobile {
+  background-color: #9932CC;
 }

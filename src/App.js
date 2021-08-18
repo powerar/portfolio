@@ -10,7 +10,7 @@ function App() {
     <div>
       <Nav></Nav>
       <div id="index-banner" className="parallax-container">
-        <div className="section no-pad-bot">
+        
           <div className="container"></div>
           <br />
           <br />
@@ -19,8 +19,7 @@ function App() {
           </div>
           <br />
           <br />
-        </div>
-
+       
         <div class="parallax">
           <img
             id="parallax-img"
