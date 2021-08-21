@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Project = () => {
+
   const projects = [
     {
       title: 'Obsidiflex',
@@ -77,50 +78,50 @@ const Project = () => {
   ];
 
   return (
-    <div className="carousel carousel-slider center">
-      {projects.map((project, i) => (
-        <div className="carousel-item card">
-          <div className="card-image waves-effect waves-block waves-light">
-            <img
-              src={require(`../../images/${projects[i].title}.png`).default}
-              className="activator"
-              alt={project.name}
-              key={project.name}
-            />
-          </div>
-          <div className="card-content">
-            <span className="card-title activator black-text">
-              {projects[i].title}
-              <i className="material-icons right">more_vert</i>
-            </span>
+      <div className="carousel carousel-slider center">
+        {projects.map((project, i) => (
+          <div className="carousel-item card">
+            <div className="card-image waves-effect waves-block waves-light">
+              <img
+                src={require(`../../images/${projects[i].title}.png`).default}
+                className="activator"
+                alt={project.name}
+                key={project.name}
+              />
+            </div>
+            <div className="card-content">
+              <span className="card-title activator black-text">
+                {projects[i].title}
+                <i className="material-icons right">more_vert</i>
+              </span>
             </div>
             <div className="card-action">
-            <a href={projects[i].appLink} className="btn btn-primary">
-              App
-            </a>
+              <a href={projects[i].appLink} className="btn btn-primary">
+                App
+              </a>
 
-            <a href={projects[i].github} className="btn btn-primary">
-              Github
-            </a>
+              <a href={projects[i].github} className="btn btn-primary">
+                Github
+              </a>
             </div>
-          
-          <div className="card-reveal">
-            <span className="card-title black-text text-darken-4">
-              {projects[i].title}
-              <i className="material-icons right">close</i>
-            </span>
-            <p id="card-text">{projects[i].description}</p>
-            
-            <ul id="card-text">
-            <strong>Built with:</strong>
-              {projects[i].build.map((build) => (
-                <li>{build}</li>
-              ))}
-            </ul>
+
+            <div className="card-reveal">
+              <span className="card-title black-text text-darken-4">
+                {projects[i].title}
+                <i className="material-icons right">close</i>
+              </span>
+              <p id="card-text">{projects[i].description}</p>
+
+              <ul id="card-text">
+                <strong>Built with:</strong>
+                {projects[i].build.map((build) => (
+                  <li>{build}</li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
   );
 };
 
