@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-  background-color: rgba(0,0,0,0.0)
+  background-color: #212121;
 }
 
 #parallax-img {
@@ -56,6 +56,10 @@ i {
 
 p {
   margin: 3px;
+}
+
+nav .brand-logo {
+  position: unset;
 }
 
 @media screen and (max-width: 850px) {

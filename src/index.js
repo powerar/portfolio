@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Particles from 'react-particles-js';
 
 ReactDOM.render(
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>,
