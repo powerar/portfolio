@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6ca9c7f.chunk.css",
-    "main.js": "/portfolio/static/js/main.18ed71b9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.18ed71b9.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.309309c0.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.309309c0.js.map",
-    "static/js/2.df3ef7fb.chunk.js": "/portfolio/static/js/2.df3ef7fb.chunk.js",
-    "static/js/2.df3ef7fb.chunk.js.map": "/portfolio/static/js/2.df3ef7fb.chunk.js.map",
-    "static/js/3.039dadfb.chunk.js": "/portfolio/static/js/3.039dadfb.chunk.js",
-    "static/js/3.039dadfb.chunk.js.map": "/portfolio/static/js/3.039dadfb.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4ac9e196.chunk.css",
+    "main.js": "/portfolio/static/js/main.18d47c2e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.18d47c2e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.32dfa1e0.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.32dfa1e0.js.map",
+    "static/js/2.7b35d7f6.chunk.js": "/portfolio/static/js/2.7b35d7f6.chunk.js",
+    "static/js/2.7b35d7f6.chunk.js.map": "/portfolio/static/js/2.7b35d7f6.chunk.js.map",
+    "static/js/3.bf102491.chunk.js": "/portfolio/static/js/3.bf102491.chunk.js",
+    "static/js/3.bf102491.chunk.js.map": "/portfolio/static/js/3.bf102491.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e6ca9c7f.chunk.css.map": "/portfolio/static/css/main.e6ca9c7f.chunk.css.map",
-    "static/js/2.df3ef7fb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.df3ef7fb.chunk.js.LICENSE.txt",
+    "static/css/main.4ac9e196.chunk.css.map": "/portfolio/static/css/main.4ac9e196.chunk.css.map",
+    "static/js/2.7b35d7f6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7b35d7f6.chunk.js.LICENSE.txt",
     "static/media/Art Gallery Online.png": "/portfolio/static/media/Art Gallery Online.1d4fc51a.png",
     "static/media/Gamer Match Maker.png": "/portfolio/static/media/Gamer Match Maker.258a29e4.png",
     "static/media/Obsidiflex.png": "/portfolio/static/media/Obsidiflex.643f6942.png",
     "static/media/Shop Shop.png": "/portfolio/static/media/Shop Shop.a833e335.png",
-    "static/media/isaac-quesada-1AyqZcC7zSg-unsplash.jpg": "/portfolio/static/media/isaac-quesada-1AyqZcC7zSg-unsplash.8507a7a8.jpg"
+    "static/media/index.png": "/portfolio/static/media/index.4615f056.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.309309c0.js",
-    "static/js/2.df3ef7fb.chunk.js",
-    "static/css/main.e6ca9c7f.chunk.css",
-    "static/js/main.18ed71b9.chunk.js"
+    "static/js/runtime-main.32dfa1e0.js",
+    "static/js/2.7b35d7f6.chunk.js",
+    "static/css/main.4ac9e196.chunk.css",
+    "static/js/main.18d47c2e.chunk.js"
   ]
 }
