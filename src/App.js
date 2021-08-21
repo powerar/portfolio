@@ -9,28 +9,11 @@ function App() {
   return (
     <div>
       <Nav></Nav>
-      <div id="index-banner" className="parallax-container">
-        <div className="section no-pad-bot">
-          <div className="container"></div>
-          <br />
-          <br />
-          <div class="row center">
-            <About></About>
-          </div>
-          <br />
-          <br />
-        </div>
 
-        <div class="parallax">
-          <img
-            id="parallax-img"
-            src={
-              require(`./images/isaac-quesada-1AyqZcC7zSg-unsplash.jpg`).default
-            }
-            alt="Unsplashed background img"
-          ></img>
-        </div>
+      <div class="row center">
+        <About></About>
       </div>
+
       <div className="container">
         <Work></Work>
       </div>

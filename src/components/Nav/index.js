@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav className="#212121 grey darken-4">
+    <nav>
       <div className="nav-wrapper container">
         <a href="#" class="brand-logo left">
           ANDREW POWER
