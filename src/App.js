@@ -10,16 +10,18 @@ function App() {
     <div>
       <Nav></Nav>
 
+      <div className="container">
+        <Work></Work>
+      </div>
+
+      <div className="container">
+        <Resume></Resume>
+      </div>
+
       <div class="row center">
         <About></About>
       </div>
 
-      <div className="container">
-        <Work></Work>
-      </div>
-      <div className="container">
-        <Resume></Resume>
-      </div>
       <Footer></Footer>
     </div>
   );
