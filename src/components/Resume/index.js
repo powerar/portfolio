@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section id="resume" className="section scrollspy">
+    <section className="section scrollspy">
       <div className="container">
         <div className="col s12 center text-white">
           <ul>

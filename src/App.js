@@ -9,22 +9,21 @@ import particlesConfig from './components/config/config-particles';
 
 function App() {
   return (
-    <div className="App" style={{ position: 'relative', overflow: 'hidden' }}>
-      <div style={{ position: 'absolute' }}>
-        <Particles height="100vh" width="100vw" params={particlesConfig} />
+    <div className="App" style={{ overflow: 'hidden' }}>
+      <Nav></Nav>
+      <div id="particles-js">
+        <Particles params={particlesConfig} />
       </div>
 
-      <Nav></Nav>
-
-      <div class="row center">
+      <div id="about" class="row center">
         <About></About>
       </div>
 
-      <div className="container">
+      <div id="work" className="container">
         <Work></Work>
       </div>
 
-      <div className="container">
+      <div id="experience" className="container">
         <Resume></Resume>
       </div>
 

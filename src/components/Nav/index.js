@@ -1,12 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Nav(props) {
-  const { setCurrentCategory, currentCategory } = props;
-
-  useEffect(() => {
-    document.title = currentCategory;
-  }, [currentCategory]);
-
   return (
     <nav>
       <div className="nav-wrapper container">
@@ -15,29 +9,17 @@ function Nav(props) {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a
-              href="#about"
-              onClick={() => setCurrentCategory('About')}
-              className="btn btn-primary"
-            >
+            <a href="about" className="btn">
               About Me
             </a>
           </li>
           <li>
-            <a
-              href="#resume"
-              onClick={() => setCurrentCategory('Experience')}
-              className="btn btn-primary"
-            >
+            <a href="#resume" className="btn">
               Experience
             </a>
           </li>
           <li>
-            <a
-              href="#work"
-              onClick={() => setCurrentCategory('Work')}
-              className="btn btn-primary"
-            >
+            <a href="#work" className="btn">
               Work
             </a>
           </li>

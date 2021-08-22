@@ -18,16 +18,32 @@ body {
       linear-gradient(315deg, rgb(189, 5, 245) 100%, rgba(9, 245, 5, 0) 70%)
       repeat scroll 0% 0%;
   color: white;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 nav {
   background-color: #212121;
 }
 
-#parallax-img {
-  transform: translate3d(-50%, 315.824px, 0px);
-  opacity: 1;
+#about {
+  height: 500px;
+}
+
+#about-text,
+#work,
+#experience {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom: auto;
+  float: unset;
+}
+
+#particles-js {
+  position: fixed;
   width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .btn {
@@ -63,6 +79,36 @@ nav .brand-logo {
 }
 
 @media screen and (max-width: 850px) {
+
+  #tsparticles-canvas-el {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #about {
+    height: 300px;
+  }
+
+  #about-text,
+  #work,
+  #experience {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    float: unset;
+  }
+
+  #particles-js {
+    position: fixed;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+
+  .row .col.s4 {
+    width: 100vw;
+  }
+
   .card {
     max-width: 100%;
   }
