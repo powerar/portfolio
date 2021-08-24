@@ -9,18 +9,18 @@ function Nav(props) {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a href="about" className="btn">
-              About Me
+            <a href="#work" className="btn">
+              Work
             </a>
           </li>
           <li>
-            <a href="#resume" className="btn">
+            <a href="#experience" className="btn">
               Experience
             </a>
           </li>
           <li>
-            <a href="#work" className="btn">
-              Work
+            <a href="#hero" className="btn">
+              About Me
             </a>
           </li>
         </ul>

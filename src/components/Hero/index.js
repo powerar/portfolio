@@ -1,8 +1,8 @@
 import React from 'react';
 
-function About() {
+function Hero() {
   return (
-      <div className="col s4" id="about-text">
+      <div className="col s4" id="hero-text">
         <strong><h3 className="white-text">Hello! My name is Andrew Power</h3></strong>
         <h5 className="center-align">
          I am a full-stack developer with extensive enterprise support experience. A developer who understands the client mindset - fast, simple, and effective.
@@ -12,4 +12,4 @@ function About() {
   );
 }
 
-export default About;
+export default Hero;
