@@ -19,7 +19,7 @@ function Nav(props) {
             </a>
           </li>
           <li>
-            <a href="#hero" className="btn">
+            <a href="#about-me" className="btn">
               About Me
             </a>
           </li>
