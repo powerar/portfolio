@@ -21,10 +21,35 @@ body {
   font-family: 'Roboto Slab', sans-serif;
 }
 
+p {
+  margin: 3px;
+}
+
+i {
+  padding: 8px;
+}
+
+/* Nav style */
 nav {
   background-color: #212121;
 }
 
+nav .brand-logo {
+  position: unset;
+}
+
+/*Button style */
+.btn {
+  background-color: #9932cc;
+  margin: 1px;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
 #about-text, #hero-text,
 #work,
@@ -36,31 +61,6 @@ nav {
   float: unset;
 }
 
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.btn {
-  background-color: #9932cc;
-  margin: 1px;
-}
-
-#card-text {
-  color: black;
-}
-
-i {
-  padding: 8px;
-}
-
-.carousel {
-  overflow: unset;
-  margin: 10px;
-}
-
 .card {
   max-width: 40%;
   text-align: left;
@@ -68,19 +68,23 @@ i {
   border-radius: 10px;
 }
 
-p {
-  margin: 3px;
+#card-text {
+  color: black;
 }
 
-nav .brand-logo {
-  position: unset;
+
+.carousel {
+  overflow: unset;
+  margin: 10px;
 }
+
+
 
 @media screen and (max-width: 850px) {
 
   #tsparticles-canvas-el {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
   }
 
   #about {
@@ -97,10 +101,10 @@ nav .brand-logo {
     float: unset;
   }
 
-  #particles-js {
-    position: fixed;
-    width: 100vw !important;
-    height: 100vh !important;
+  #tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
 
   .row .col.s4 {

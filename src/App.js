@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import Work from './components/Work';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-import About from './components/About Me'
+import About from './components/About Me';
 import Particles from 'react-particles-js';
 import particlesConfig from './components/config/config-particles';
 
