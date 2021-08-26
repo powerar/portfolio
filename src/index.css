@@ -2,11 +2,11 @@ body {
   margin: 0;
   background: linear-gradient(
         45deg,
-        rgb(245, 5, 152) 0%,
+        rgb(153, 50, 204) 0%,
         rgba(225, 5, 34, 0) 70%
       )
       repeat scroll 0% 0%,
-    linear-gradient(135deg, rgb(26, 10, 107) 10%, rgba(49, 5, 209, 0) 80%)
+    linear-gradient(135deg, rgb(153, 50, 204) 10%, rgba(49, 5, 209, 0) 80%)
       repeat scroll 0% 0%,
     linear-gradient(
         225deg,
@@ -15,7 +15,7 @@ body {
       )
       repeat scroll 0% 0%,
     rgba(0, 0, 0, 0)
-      linear-gradient(315deg, rgb(189, 5, 245) 100%, rgba(9, 245, 5, 0) 70%)
+      linear-gradient(315deg, rgb(153, 50, 204) 100%, rgba(9, 245, 5, 0) 70%)
       repeat scroll 0% 0%;
   color: white;
   font-family: 'Roboto Slab', sans-serif;
@@ -38,11 +38,19 @@ nav .brand-logo {
   position: unset;
 }
 
+
 /*Button style */
 .btn {
   background-color: #9932cc;
   margin: 1px;
 }
+
+nav ul {
+  display: flex;
+  float:right;
+  position: relative;
+}
+
 
 #particles-js {
   position: fixed;
@@ -87,8 +95,9 @@ nav .brand-logo {
     width: 100%;
   }
 
-  #about {
-    height: 300px;
+  #hero, #work {
+    margin-top: 300px;
+    height: 500px;
   }
 
   #about-text, #hero-text,
@@ -119,6 +128,7 @@ nav .brand-logo {
     position: fixed;
     height: 100px;
     left: 0;
+    line-height:unset;
   }
 
   #parallax-img {
