@@ -20,6 +20,39 @@ const Project = () => {
       ],
     },
     {
+      title: 'E-commerce Shop',
+      github: 'https://github.com/powerar/shop-shop',
+      appLink: 'https://still-cliffs-40340.herokuapp.com/',
+      description:
+        'Shop-Shop is a MERN-stack e-commerce site. Users can filter by product, add and remove items to/from their cart, checkout, and view their order history. Checkouts are handled using the Stripe API. This application manages state using the React-Redux paradigm, and consists of a MongoDB, GraphQL and Apollo server back-end.',
+      build: [
+        'React',
+        'JavaScript',
+        'CSS',
+        'Bootstrap',
+        'Node.js',
+        'GraphQL',
+        'Apollo Server',
+        'Express',
+        'Redux',
+        'Stripe',
+      ],
+    },
+    {
+      title: 'Budget Tracker',
+      github: 'https://github.com/powerar/budget-tracker/',
+      appLink: 'https://gorgeous-wind-cave-29462.herokuapp.com/',
+      description:
+        'A simple Progressive Web Application for budget tracking that allows users to log expenses with or without an internet connection. This application was built with a Node.js back-end, and a Mongoose database. It uses service workers and caching to provide offline capabilities.',
+      build: [
+        'JavaScript',
+        'CSS',
+        'Node.js',
+        'Express',
+        'Mongoose'
+      ],
+    },
+    {
       title: 'Gamer Match Maker',
       github: 'https://github.com/PrimalOrB/gamer-match',
       appLink: 'https://damp-tor-80298.herokuapp.com/',
@@ -39,40 +72,17 @@ const Project = () => {
       ],
     },
     {
-      title: 'Art Gallery Online',
-      github: 'https://github.com/Stevtm/art-gallery-online',
-      appLink: 'https://shrouded-sands-03163.herokuapp.com/',
+      title: 'Zoo Keepr',
+      github: 'https://github.com/powerar/zookeepr',
+      appLink: 'https://agile-fortress-42194.herokuapp.com/',
       description:
-        'This application is an online art gallery that allows put their original art up for sale and browse art pieces that have been posted by other users in the community. The application is built with the MERN stack with a GraphQL API. A Stripe placeholder is configured to direct users to a payment page for purchasing art.',
+        'Zoo Keepr is an animal and zoo keeper tracking application with a RESTful API and Express back-end. Users can add animals, their attributes, and zookeepers to the application with full CRUD access.',
       build: [
-        'Apollo Server',
-        'Bootstrap',
-        'GraphQL',
-        'Node.js',
-        'Express',
-        'jsonwebtoken',
-        'Mongoose',
-        'Firebase/Firebase Cloud Storage',
-        'Stripe',
-      ],
-    },
-    {
-      title: 'Shop Shop',
-      github: 'https://github.com/powerar/shop-shop',
-      appLink: 'https://still-cliffs-40340.herokuapp.com/',
-      description:
-        'Shop-Shop is a MERN-stack e-commerce site. Users can filter by product, add and remove items to/from their cart, checkout, and view their order history. Checkouts are handled using the Stripe API. This application manages state using the React-Redux paradigm, and consists of a MongoDB, GraphQL and Apollo server back-end.',
-      build: [
-        'React',
-        'JavaScript',
+        'HTML5',
         'CSS',
-        'Bootstrap',
-        'Node.js',
-        'GraphQL',
-        'Apollo Server',
+        'JavaScript',
         'Express',
-        'Redux',
-        'Stripe',
+        'Node'
       ],
     },
   ];
