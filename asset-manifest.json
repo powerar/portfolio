@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0e946e41.chunk.css",
-    "main.js": "/portfolio/static/js/main.96700198.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.96700198.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.32dfa1e0.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.32dfa1e0.js.map",
-    "static/js/2.7b35d7f6.chunk.js": "/portfolio/static/js/2.7b35d7f6.chunk.js",
-    "static/js/2.7b35d7f6.chunk.js.map": "/portfolio/static/js/2.7b35d7f6.chunk.js.map",
-    "static/js/3.bf102491.chunk.js": "/portfolio/static/js/3.bf102491.chunk.js",
-    "static/js/3.bf102491.chunk.js.map": "/portfolio/static/js/3.bf102491.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.582221ce.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.582221ce.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.80d4f74f.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.80d4f74f.js.map",
+    "static/js/2.18f714e9.chunk.js": "/portfolio/static/js/2.18f714e9.chunk.js",
+    "static/js/2.18f714e9.chunk.js.map": "/portfolio/static/js/2.18f714e9.chunk.js.map",
+    "static/js/3.5f34f27b.chunk.js": "/portfolio/static/js/3.5f34f27b.chunk.js",
+    "static/js/3.5f34f27b.chunk.js.map": "/portfolio/static/js/3.5f34f27b.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.0e946e41.chunk.css.map": "/portfolio/static/css/main.0e946e41.chunk.css.map",
-    "static/js/2.7b35d7f6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7b35d7f6.chunk.js.LICENSE.txt",
+    "static/js/2.18f714e9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.18f714e9.chunk.js.LICENSE.txt",
     "static/media/Art Gallery Online.png": "/portfolio/static/media/Art Gallery Online.1d4fc51a.png",
+    "static/media/Budget Tracker.png": "/portfolio/static/media/Budget Tracker.2b6fba87.png",
+    "static/media/E-commerce Shop.png": "/portfolio/static/media/E-commerce Shop.a833e335.png",
     "static/media/Gamer Match Maker.png": "/portfolio/static/media/Gamer Match Maker.258a29e4.png",
     "static/media/Obsidiflex.png": "/portfolio/static/media/Obsidiflex.643f6942.png",
-    "static/media/Shop Shop.png": "/portfolio/static/media/Shop Shop.a833e335.png",
+    "static/media/Zoo Keepr.png": "/portfolio/static/media/Zoo Keepr.dba425d1.png",
     "static/media/index.png": "/portfolio/static/media/index.4615f056.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.32dfa1e0.js",
-    "static/js/2.7b35d7f6.chunk.js",
+    "static/js/runtime-main.80d4f74f.js",
+    "static/js/2.18f714e9.chunk.js",
     "static/css/main.0e946e41.chunk.css",
-    "static/js/main.96700198.chunk.js"
+    "static/js/main.582221ce.chunk.js"
   ]
 }
