@@ -19,25 +19,6 @@ const Project = () => {
       ],
     },
     {
-      title: 'E-commerce Shop',
-      github: 'https://github.com/powerar/shop-shop',
-      appLink: 'https://still-cliffs-40340.herokuapp.com/',
-      description:
-        'Shop-Shop is a MERN-stack e-commerce site. Users can filter by product, add and remove items to/from their cart, checkout, and view their order history. Checkouts are handled using the Stripe API. This application manages state using the React-Redux paradigm, and consists of a MongoDB, GraphQL and Apollo server back-end.',
-      build: [
-        'React',
-        'JavaScript',
-        'CSS',
-        'Bootstrap',
-        'Node.js',
-        'GraphQL',
-        'Apollo Server',
-        'Express',
-        'Redux',
-        'Stripe',
-      ],
-    },
-    {
       title: 'Budget Tracker',
       github: 'https://github.com/powerar/budget-tracker/',
       appLink: 'https://gorgeous-wind-cave-29462.herokuapp.com/',
